@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta Especial</title>
+  <script>
+    alert("Feliz día de las flores amarillas 🌼 Te debo el chocolate 🍫");
+    function mostrarMensaje() {
+      document.getElementById("mensajeOculto").style.display = "block";
+    }
+  </script>
+  <style>
+    /* Estilos generales */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #fff7d9;
+      color: #2b2b2b;
+      line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    .carta {
+      background: white;
+      max-width: 600px;
+      width: 90%;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    h1 {
+      text-align: center;
+      color: #f2c94c;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+
+    .firma {
+      margin-top: 2rem;
+      text-align: right;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .botones {
+      background: #f2c94c;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .botones:hover {
+      background: #f5d76e;
+    }
+
+    #mensajeOculto {
+      margin-top: 20px;
+      padding: 15px;
+      border: 2px solid black;
+      border-radius: 10px;
+      background: #fffbea;
+      text-align: center;
+      display: none; /* Oculto al inicio */
+      font-weight: bold;
+    }
+
+    /* Responsividad */
+    @media (max-width: 480px) {
+      .carta {
+        padding: 1.2rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="carta">
+    <h1>🦋 Querida Paula,</h1>
+    <p>
+      Hoy quiero recordarte lo especial que eres para mí y lo afortunado/a que me siento de tener tu amistad. 
+      Eres de esas personas que llenan los días de luz, como las mariposas que tanto te gustan: 
+      delicadas, alegres y llenas de color.
+    </p>
+    <p>
+      Sé que disfrutas de cosas sencillas pero hermosas, como una manzana verde 
+      o una chocolatina blanca. Eso me recuerda que la vida, al igual que tu amistad, 
+      se disfruta en los pequeños detalles.
+    </p>
+    <p>
+      Admiro tu dedicación en psicología y tu amor por los animales: perros, vacas, caballos y cada ser que despierta ternura; esa sensibilidad revela tu gran corazón. 
+      Gracias por tu compañía 💕
+    </p>
+    <div class="firma">
+      Con todo mi cariño,<br>
+      💌 chiquitics
+    </div>
+  </div>
+
+ <button class="botones">
+            <a href="flower.html" style="color: #000000;">CLICK AQUÍ</a>
+        </button>
+
+  <!-- El mensaje que aparece al hacer clic -->
+ <!--<div id="mensajeOculto">🌸 Que se vea aquí 🌸</div>-->
+
+</body>
+</html>
